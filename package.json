@@ -1,0 +1,18 @@
+{
+  "name": "clase15-06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-watch-dev": "sass --watch -c --style=expanded --no-source-map styles/sass:styles/css",
+    "sass-compile-dev": "sass -c --style=expanded --no-source-map styles/sass:styles/css",
+    "sass-compile-prod": "sass -c --style=compressed styles/sass:styles/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

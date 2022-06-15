@@ -1,0 +1,19 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.barraSuperior{
+    height: 30px;
+    width: 100%;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$carousel-indicator-height:20px;
+
+.carousel-inner img { 
+    width: 100%; max-height: 600px; 
+} 
+.carousel-inner{ 
+    height: 600px; 
+} 
